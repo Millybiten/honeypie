@@ -1,0 +1,148 @@
+@media (max-width: 939px) {
+	.container {
+		width: 96%;
+	}
+
+	header h1 {
+		text-align: center;
+	}
+
+	header h1 img {
+		max-width: 50%;
+	}
+
+	.sacola {
+		display: none;
+	}
+
+
+}
+
+@media (min-width: 480px) {
+	header h1 {
+		margin: 5px 0;
+	}
+
+}
+
+@media (min-width: 720px) {
+	header h1 {
+		text-align: left;
+	}
+
+	
+}
+
+   #centro-distribuicao {
+
+    float: left;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #f5c6f0;
+	border: 1px solid #ccc;
+	text-align: center;
+	padding: 10px;
+	margin: 30px;
+}
+
+iframe {
+    float: right;
+	background-color: #f5c6f0;
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin: 30px;
+}
+
+p::first-letter {
+	font-weight: bold;
+}
+
+h1+p {
+	text-indent: 0;
+}
+
+p::first-line {
+	font-variant: small-caps;
+}
+
+
+body {
+	color: black;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+h1 {
+	background-color: #f5c6f0;
+}
+
+h2 {
+	border-bottom: 2px solid #333333;
+}
+
+
+.container {
+	margin: 0 auto;
+	width: 940px;
+	background-color: #faafed;
+}
+
+
+
+figcaption {
+	font-style: italic;
+}
+
+h1 {
+	padding: 10px;
+}
+
+h2 {
+	margin-top: 30px;
+}
+
+p {
+	padding: 0 45px;
+	text-indent: 15px;
+}
+
+figcaption {
+	margin-top: 10px;
+}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 940px
+}
+
+
+#rodape {
+	color: black;
+	margin: 10px 0;
+	padding: 10px 0;
+	background-color: #f5c6f0;
+}
+
+#familia-pelho {
+	float: right;
+	width: 260px;
+	background-color: #f5c6f0;
+	border: 1px solid #ccc;
+	text-align: center;
+	padding: 15px;
+	margin: 0 0 10px 20px;
+}
+
+#familia-pelho img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* aumenta o texto da seção História (parágrafos logo após o título) */
+h2#História ~ p {
+	font-size: 18px;
+	line-height: 1.7;
+	padding: 0 30px;
+}
+
+ 
